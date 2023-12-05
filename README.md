@@ -108,7 +108,7 @@ We define a Python class called `Explainability` and the architecture is express
 ```py
 class Explainability(object):
     # Global feature importance analysis
-	def shap_global_importance(self)
+    def shap_global_importance(self)
     def model_global_importance(self)
     
     # Local feature importance analysis
@@ -126,7 +126,7 @@ The architecture of the web application is as follows. The frontend is developed
 
 Users should first initiate `web_application_user.py` to start `Flask` application. Then users can click the web link to `user.html`
 
-```http://127.0.0.1:5000
+```
 http://127.0.0.1:5000
 ```
 
